@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags %}
+
+{% block content %}
+
+{% if request.GET.tag|length %}
+<h4>Opskrifter der er tagget med "{{ request.GET.tag }}"</h4>
+{% endif %}
+
+{% for recipespage in recipespages %}
+
+<p>
+    <strong><a href="{% pageurl recipespage %}">{{ recipespage.title }}</a></strong><br />
+    <small>Opdateret: {{ recipespage.latest_revision_created_at }}</small><br />
+    {% if recipespage.author %}
+    <p>By {{ recipespage.author.profile }}</p>
+    {% endif %}
+</p>
+
+{% empty %}
+Ingen opskrifter med det angivne tag 😭
+{% endfor %}
+
+{% endblock %}

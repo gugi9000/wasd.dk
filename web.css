@@ -1,0 +1,256 @@
+/*
+#898c35 : green
+#3f3b31	: dark gray
+#8c877d	: mid gray
+#bfbab0	: light gray
+*/
+
+
+#design .text, #design .text_wide, #design .text_area
+{
+	width : 200px;
+	border : solid 1px #bfbab0;
+	font-family : Tahoma;
+	font-size : 10pt;
+}
+
+#design .text_wide, #design .text_area
+{
+	width : 420px;
+}
+
+#design .text_area
+{
+	height : 150px;
+}
+
+/*
+==============================================================================
+GENERAL
+==============================================================================
+*/
+
+
+body
+{
+	background-color : #bfbab0;
+	
+	margin : 0;
+	padding : 0;
+}
+
+
+/*
+==============================================================================
+DESIGN
+==============================================================================
+*/
+
+
+#design
+{
+	color : #3f3b31;
+	font-family : Arial, Helvetica;
+	font-size : 10pt;
+}
+
+
+#design .clear
+{
+	clear : both;
+	height : 0px;
+	width : 0px;
+}
+
+#design ul
+{
+	list-style-type : square;
+	margin-left : 18px;
+}
+
+#design li
+{
+	margin-left : 0px;
+}
+
+#design img
+{
+	border : none;
+}
+
+#design a
+{
+	text-decoration : none;
+	color: #217bc0;
+}
+
+#design H1, #design H2, #design H3
+{
+	font-family : Arial, Helvetica;
+	font-size : 16pt;
+	margin : 0px;
+	letter-spacing : 1px;
+	text-transform : uppercase;
+	font-weight : normal;
+}
+
+
+#design H1
+{
+	width : 450px;
+	float : left;
+	margin : 0px 0px 20px 95px;
+	color : #3f3b31;
+}
+
+#design h2
+{
+	color : #bfbab0;
+	margin : 20px 0px 5px 0px;
+	font-size : 10pt;
+}
+
+desgn h3
+{
+	color : #ffffff;
+}
+#design .row
+{
+	position : relative;
+	margin : 0px auto 0px auto;
+	padding : 25px 25px 0px 25px;
+	
+	width : 900px;
+}
+
+
+#design .row .left, #design .row .right
+{
+	float : left;
+}
+
+
+#design #header
+{
+	background-color : #217bc0;
+	text-transform : uppercase;
+	padding : 25px 25px 25px 25px;
+	letter-spacing : 1px;
+}
+
+#design #disclaimer
+{
+	text-transform : uppercase;
+	padding : 25px 25px 25px 25px;
+	letter-spacing : 1px;
+}
+
+#design #content
+{
+	background-color : #ffffff;
+	padding-bottom : 50px;
+	padding-top : 50px;
+}
+
+#design #logo
+{
+	background-color : #ffffff;
+	padding-top : 50px;
+}
+
+#design #footer
+{
+	background-color : #217bc0;
+	color : #ffffff;
+	padding-bottom : 25px;
+}
+
+
+
+#design #content .right
+{
+	border-left : solid 1px #bfbab0;
+}
+
+
+
+#design #content .right, #design #content .left, #design #footer .left, #design #footer .right
+{
+	text-align : justify;
+	font-family : Tahoma;
+	font-size : 10pt;
+	line-height : 16pt;
+}
+
+#design .row .left
+{
+	width : 440px;
+	padding : 0px;
+	margin-left : 95px;
+}
+
+#design .row .right
+{
+	width : 310px;
+	padding : 0px 0px 0px 18px;
+	margin : 0px 0px 0px 20px;
+}
+
+
+
+
+#design #header .left, #design #header .right, #design #footer .right
+{
+	font-family : Arial;
+	font-size : 10pt;
+	letter-spacing : 1px;
+	text-transform : uppercase;
+	color : #ffffff;
+}
+
+#design #disclaimer .left, #design #disclaimer .right
+{
+	font-size : 10pt;
+	letter-spacing : 1px;
+	text-transform : uppercase;
+	color : #8c877d;
+}
+
+#design #header .left a, #design #header .right a, #design #disclaimer .left a, #design #disclaimer .right a
+{
+	color : #fff;
+}
+
+
+#design #footer .leftbottom
+{
+	padding-bottom : 50px;
+	position : absolute;
+	bottom : -50px;
+	left : 0px;	
+}
+
+#design #footer .rightbottom
+{
+	padding-bottom : 50px;
+	position : absolute;
+	bottom : -50px;
+	left : 940px;
+}
+
+* #footer {
+        height: 1%;
+}
+
+
+#footer a
+{
+	color : #3f3b31;
+}
+
+
+#design #logo .left .logo
+{
+	margin-left : -95px;
+}
+
